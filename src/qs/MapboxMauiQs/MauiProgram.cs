@@ -5,6 +5,8 @@ namespace MapboxMauiQs;
 
 public static partial class MauiProgram
 {
+	public static string ACCESS_TOKEN => throw new NotImplementedException();
+	
     public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
